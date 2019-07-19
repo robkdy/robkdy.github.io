@@ -1,0 +1,4 @@
+Sitemap: https://robkdy.github.io/sitemapindex.xml
+
+User-Agent: *
+Host: robkdy.github.io
