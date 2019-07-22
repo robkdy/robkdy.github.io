@@ -120,10 +120,10 @@ navbar-dark bg-dark
 <p>In this section, I will explore correlations of certain factors (independent variables) to future returns (dependent variables). </p>
 <h4>Discount</h4>
 <p>Unlike mutual funds, ETFs, and stocks, closed-end funds can trade at a considerable discount to their net asset value. We can explore this uniqueness by plotting regressions that show correlations between discounts and forward 1, 3, 5, and 10 year returns across all four categories. The plots are below.</p>
-<p><img alt="" src="images/CEF-blog0.png" title=""></p>
-<p><img alt="" src="images/CEF-blog1.png" title=""></p>
-<p><img alt="" src="images/CEF-blog2.png" title=""></p>
-<p><img alt="" src="images/CEF-blog3.png" title=""></p>
+<p><img alt="" src="images/cef-blog0.png" title=""></p>
+<p><img alt="" src="images/cef-blog1.png" title=""></p>
+<p><img alt="" src="images/cef-blog2.png" title=""></p>
+<p><img alt="" src="images/cef-blog3.png" title=""></p>
 <p>The pearson correlation between discounts and returns for categories can be summarized by the following table:</p>
 <table>
 <tr>
@@ -268,26 +268,26 @@ navbar-dark bg-dark
 <p>The best correlation between Discount and 1 and 3-yr returns is in Municipal Bonds. For 5 and 10-yr returns it is Equity Foreign. For Equity Foreign and Muni Bonds, the best correlation is for 10-yr returns, for Equity US and Fixed Income the best correlation is for 5-yr returns. They tend to get better the longer the time horizon, Muni bonds appear to correlate the best, and none of the correlations are all that strong. All these correlations are for the mean values of all the funds in the category. If we go down to an individual fund, we might find it more interesting. For example, here is the discount to 1-yr return for the fund NID, which shows a much better correlation.</p>
 <h4>Z-Score</h4>
 <p>There is another measure of discount that might correlate better with future returns, called the Z-score. Just like in statistics, the Z-score of closed-end funds is the difference of the discount to mean of the discount over a specified period, divided by the standard deviation of the discount over the same period.</p>
-<p><img alt="" src="images/CEF-blog18.png" title=""></p>
-<p><img alt="" src="images/CEF-blog19.png" title=""></p>
-<p><img alt="" src="images/CEF-blog20.png" title=""></p>
-<p><img alt="" src="images/CEF-blog21.png" title=""><img alt="" src="images/CEF-blog22.png" title=""></p>
+<p><img alt="" src="images/cef-blog18.png" title=""></p>
+<p><img alt="" src="images/cef-blog19.png" title=""></p>
+<p><img alt="" src="images/cef-blog20.png" title=""></p>
+<p><img alt="" src="images/cef-blog21.png" title=""><img alt="" src="images/cef-blog22.png" title=""></p>
 <p>Below are the correlation scatter plots of various periods of z-scores with the subsequent 1-yr return.</p>
-<p><img alt="" src="images/CEF-blog5.png" title=""></p>
-<p><img alt="" src="images/CEF-blog6.png" title=""></p>
+<p><img alt="" src="images/cef-blog5.png" title=""></p>
+<p><img alt="" src="images/cef-blog6.png" title=""></p>
 <p>It appears that the Z-score is not very predictive of 1-year returns. However like discounts, perhaps at an individual fund level, there may be better correlations.</p>
 <h4>Past Performance</h4>
 <p>Often, funds will state “past performance is no guarantee of future results”. Let’s see if they actually correlate. Here is the past 1-yr returns versus the forward 1-yr returns and the past 10-yr returns versus the forward 1-yr returns for the period ending on 03/05/2019.</p>
-<p><img alt="" src="images/CEF-blog7.png" title=""></p>
-<p><img alt="" src="images/CEF-blog8.png" title=""></p>
+<p><img alt="" src="images/cef-blog7.png" title=""></p>
+<p><img alt="" src="images/cef-blog8.png" title=""></p>
 <p>The funds are correct to state that past performance doesn’t result in future results. All categories but fixed income don’t show much of any correlation. For fixed income, 10-yr return shows a better correlation than 1-yr returns. Maybe there is persistent skill in managing fixed income funds?</p>
 <h4>The 200 Day Moving Average</h4>
 <p>The 200-day moving average (200dma) is a popular indicator as a smoothing function and longer term trend indicator. We can calculate how far as a percent from the 200dma each fund is and see if it correlates with future 1-yr returns for the period ending 03/05/19.</p>
-<p><img alt="" src="images/CEF-blog9.png" title=""></p>
+<p><img alt="" src="images/cef-blog9.png" title=""></p>
 <p>It looks like being below the 200dma is better for future returns, but not always. Again it would probably be better to drill down to individual funds and across different periods.</p>
 <h4>Net Expense Ratio</h4>
 <p>Net expense ratio is how much the funds charge to manage the assets. The data set does not have historical net expense ratio so I can’t really do an accurate analysis. Assuming they were similar to a year ago, we can see what happened in the last year.</p>
-<p><img alt="" src="images/CEF-blog10.png" title=""></p>
+<p><img alt="" src="images/cef-blog10.png" title=""></p>
 <p>Nothing much there.</p>
 <p>To summarize, we’ll take a closer look at the following to put in a model:</p>
 <ul>
@@ -523,9 +523,9 @@ navbar-dark bg-dark
   </tr>
 </table>
 <p>Graphically, here’s how some funds visually relates to a corresponding feature.</p>
-<p><img alt="" src="images/CEF-blog11.png" title=""></p>
-<p><img alt="" src="images/CEF-blog12.png" title=""></p>
-<p><img alt="" src="images/CEF-blog13.png" title=""></p>
+<p><img alt="" src="images/cef-blog11.png" title=""></p>
+<p><img alt="" src="images/cef-blog12.png" title=""></p>
+<p><img alt="" src="images/cef-blog13.png" title=""></p>
 <p>I’m going to pick the Linear Regression, and Random Forest Regression model to see if any predictions are possible. Running all the funds through each model results in the following funds with the best R2 score on the out of sample test data.</p>
 <p>Linear Regression:</p>
 <table>
@@ -678,11 +678,11 @@ navbar-dark bg-dark
   </tr>
 </table>
 <p>Linear Regression for MFV and GCV:</p>
-<p><img alt="" src="images/CEF-blog14.png" title=""></p>
-<p><img alt="" src="images/CEF-blog15.png" title=""></p>
+<p><img alt="" src="images/cef-blog14.png" title=""></p>
+<p><img alt="" src="images/cef-blog15.png" title=""></p>
 <p>Random Forest Regression for EGF</p>
-<p><img alt="" src="images/CEF-blog16.png" title=""></p>
-<p><img alt="" src="images/CEF-blog17.png" title=""></p>
+<p><img alt="" src="images/cef-blog16.png" title=""></p>
+<p><img alt="" src="images/cef-blog17.png" title=""></p>
 <h3>Conclusions</h3>
 <p>Using the features of Discount to NAV, Past 10-yr returns, and Distance from 200 day moving average, and using the Linear Regression and Random Forest Regression models, at least some funds show some predictability through machine learning. This is just a starting point of exploring this space. Some other areas to dive deeper include:</p>
 <ul>
