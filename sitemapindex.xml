@@ -6,47 +6,7 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
-  <loc>https://robkdy.github.io/authors/roberto-alsina.xml</loc>
-  <lastmod>2019-07-19T20:54:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://robkdy.github.io/authors/robin-tran.xml</loc>
-  <lastmod>2019-07-19T20:54:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://robkdy.github.io/categories/blog.xml</loc>
-  <lastmod>2019-07-19T20:41:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://robkdy.github.io/categories/cat_nikola.xml</loc>
-  <lastmod>2019-07-19T20:41:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://robkdy.github.io/categories/demo.xml</loc>
-  <lastmod>2019-07-19T20:41:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://robkdy.github.io/categories/nikola.xml</loc>
-  <lastmod>2019-07-19T20:41:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://robkdy.github.io/categories/python.xml</loc>
-  <lastmod>2019-07-19T20:41:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://robkdy.github.io/galleries/demo/rss.xml</loc>
-  <lastmod>2019-07-20T01:43:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://robkdy.github.io/galleries/rss.xml</loc>
-  <lastmod>2019-07-20T01:43:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://robkdy.github.io/rss.xml</loc>
-  <lastmod>2019-07-19T20:54:00Z</lastmod>
- </sitemap>
- <sitemap>
   <loc>https://robkdy.github.io/sitemap.xml</loc>
-  <lastmod>2019-07-20T01:43:00Z</lastmod>
+  <lastmod>2019-07-22T02:40:00Z</lastmod>
  </sitemap>
 </sitemapindex>

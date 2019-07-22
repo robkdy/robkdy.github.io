@@ -7,11 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://robkdy.github.io/</loc>
-  <lastmod>2019-07-19T20:54:00Z</lastmod>
- </url>
- <url>
-  <loc>https://robkdy.github.io/2012/</loc>
-  <lastmod>2019-07-19T20:41:00Z</lastmod>
+  <lastmod>2019-07-22T02:39:00Z</lastmod>
  </url>
  <url>
   <loc>https://robkdy.github.io/2019/</loc>
@@ -19,51 +15,19 @@
  </url>
  <url>
   <loc>https://robkdy.github.io/archive.html</loc>
-  <lastmod>2019-07-20T01:43:00Z</lastmod>
- </url>
- <url>
-  <loc>https://robkdy.github.io/authors/</loc>
-  <lastmod>2019-07-19T20:54:00Z</lastmod>
- </url>
- <url>
-  <loc>https://robkdy.github.io/authors/roberto-alsina/</loc>
-  <lastmod>2019-07-19T20:54:00Z</lastmod>
- </url>
- <url>
-  <loc>https://robkdy.github.io/authors/robin-tran/</loc>
-  <lastmod>2019-07-19T20:54:00Z</lastmod>
+  <lastmod>2019-07-22T02:28:00Z</lastmod>
  </url>
  <url>
   <loc>https://robkdy.github.io/categories/</loc>
-  <lastmod>2019-07-19T20:41:00Z</lastmod>
- </url>
- <url>
-  <loc>https://robkdy.github.io/categories/blog/</loc>
-  <lastmod>2019-07-19T20:41:00Z</lastmod>
- </url>
- <url>
-  <loc>https://robkdy.github.io/categories/cat_nikola/</loc>
-  <lastmod>2019-07-19T20:41:00Z</lastmod>
- </url>
- <url>
-  <loc>https://robkdy.github.io/categories/demo/</loc>
-  <lastmod>2019-07-19T20:41:00Z</lastmod>
- </url>
- <url>
-  <loc>https://robkdy.github.io/categories/nikola/</loc>
-  <lastmod>2019-07-19T20:41:00Z</lastmod>
- </url>
- <url>
-  <loc>https://robkdy.github.io/categories/python/</loc>
-  <lastmod>2019-07-19T20:41:00Z</lastmod>
+  <lastmod>2019-07-22T02:39:00Z</lastmod>
  </url>
  <url>
   <loc>https://robkdy.github.io/galleries/</loc>
-  <lastmod>2019-07-19T20:41:00Z</lastmod>
+  <lastmod>2019-07-22T02:39:00Z</lastmod>
  </url>
  <url>
   <loc>https://robkdy.github.io/galleries/demo/</loc>
-  <lastmod>2019-07-19T20:41:00Z</lastmod>
+  <lastmod>2019-07-22T02:39:00Z</lastmod>
  </url>
  <url>
   <loc>https://robkdy.github.io/listings/</loc>
@@ -75,7 +39,7 @@
  </url>
  <url>
   <loc>https://robkdy.github.io/listings/hello.py.html</loc>
-  <lastmod>2019-07-20T01:43:00Z</lastmod>
+  <lastmod>2019-07-22T02:28:00Z</lastmod>
  </url>
  <url>
   <loc>https://robkdy.github.io/pages/about-nikola/</loc>
@@ -88,6 +52,10 @@
  <url>
   <loc>https://robkdy.github.io/pages/charts/</loc>
   <lastmod>2019-07-19T20:41:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://robkdy.github.io/pages/contact/</loc>
+  <lastmod>2019-07-22T02:25:00Z</lastmod>
  </url>
  <url>
   <loc>https://robkdy.github.io/pages/creating-a-theme/</loc>
@@ -118,6 +86,10 @@
   <lastmod>2019-07-19T20:41:00Z</lastmod>
  </url>
  <url>
+  <loc>https://robkdy.github.io/pages/projects/</loc>
+  <lastmod>2019-07-22T02:25:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://robkdy.github.io/pages/quickref/</loc>
   <lastmod>2019-07-19T20:41:00Z</lastmod>
  </url>
@@ -134,11 +106,7 @@
   <lastmod>2019-07-19T20:41:00Z</lastmod>
  </url>
  <url>
-  <loc>https://robkdy.github.io/posts/fisrt-post-test/</loc>
-  <lastmod>2019-07-19T20:54:00Z</lastmod>
- </url>
- <url>
-  <loc>https://robkdy.github.io/posts/welcome-to-nikola/</loc>
-  <lastmod>2019-07-19T20:41:00Z</lastmod>
+  <loc>https://robkdy.github.io/posts/closed-end-funds/</loc>
+  <lastmod>2019-07-22T02:39:00Z</lastmod>
  </url>
 </urlset>
