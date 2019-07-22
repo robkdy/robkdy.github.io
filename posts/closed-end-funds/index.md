@@ -91,7 +91,7 @@ The pearson correlation between discounts and returns for categories can be summ
 
 
 
-<table>
+<table border="1">
   <tr>
     <td><p style="text-align: left">
 <strong>Category</strong></p>
@@ -322,7 +322,7 @@ Specific funds may correlate better than the general market, so I will try to de
 Best discount to 1-yr forward return correlation:
 
 
-<table>
+<table border="1">
   <tr>
    <td><p style="text-align: right">
 <strong>Ticker</strong></p>
@@ -389,7 +389,7 @@ Best discount to 1-yr forward return correlation:
 Best below 200 day moving average to 1-yr forward return correlation:
 
 
-<table>
+<table border="1">
   <tr>
    <td><p style="text-align: right">
 <strong>Ticker</strong></p>
@@ -456,7 +456,7 @@ Best below 200 day moving average to 1-yr forward return correlation:
 Best past 10-yr return to 1-yr forward return correlation:
 
 
-<table>
+<table border="1">
   <tr>
    <td><p style="text-align: right">
 <strong>Ticker</strong></p>
@@ -551,7 +551,7 @@ I’m going to pick the Linear Regression, and Random Forest Regression model to
 Linear Regression:
 
 
-<table>
+<table border="1">
   <tr>
    <td><p style="text-align: right">
 <strong>Ticker</strong></p>
@@ -618,7 +618,7 @@ Linear Regression:
 Random Forest Regression:
 
 
-<table>
+<table border="1">
   <tr>
    <td><p style="text-align: right">
 <strong>Ticker</strong></p>
