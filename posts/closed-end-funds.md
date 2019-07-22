@@ -61,7 +61,7 @@ Unlike mutual funds, ETFs, and stocks, closed-end funds can trade at a considera
 
 
 
-![](/images/CEF-blog0.png "")
+![](/images/cef-blog0.png "")
 
 
 
@@ -69,14 +69,14 @@ Unlike mutual funds, ETFs, and stocks, closed-end funds can trade at a considera
 
 
 
-![](/images/CEF-blog1.png "")
+![](/images/cef-blog1.png "")
 
 
 
 
 
 
-![](/images/CEF-blog2.png "")
+![](/images/cef-blog2.png "")
 
 
 
@@ -84,7 +84,7 @@ Unlike mutual funds, ETFs, and stocks, closed-end funds can trade at a considera
 
 
 
-![](/images/CEF-blog3.png "")
+![](/images/cef-blog3.png "")
 
 
 The pearson correlation between discounts and returns for categories can be summarized by the following table:
@@ -226,14 +226,14 @@ There is another measure of discount that might correlate better with future ret
 
 
 
-   ![](/images/CEF-blog18.png "")
+   ![](/images/cef-blog18.png "")
 
-   ![](/images/CEF-blog19.png "")
+   ![](/images/cef-blog19.png "")
 
-![](/images/CEF-blog20.png "")
+![](/images/cef-blog20.png "")
 
-![](/images/CEF-blog21.png "")
-![](/images/CEF-blog22.png "")
+![](/images/cef-blog21.png "")
+![](/images/cef-blog22.png "")
 
 Below are the correlation scatter plots of various periods of z-scores with the subsequent 1-yr return.
 
@@ -241,14 +241,14 @@ Below are the correlation scatter plots of various periods of z-scores with the 
 
 
 
-![](/images/CEF-blog5.png "")
+![](/images/cef-blog5.png "")
 
 
 
 
 
 
-![](/images/CEF-blog6.png "")
+![](/images/cef-blog6.png "")
 
 
 It appears that the Z-score is not very predictive of 1-year returns. However like discounts, perhaps at an individual fund level, there may be better correlations.
@@ -263,7 +263,7 @@ Often, funds will state “past performance is no guarantee of future results”
 
 
 
-![](/images/CEF-blog7.png "")
+![](/images/cef-blog7.png "")
 
 
 
@@ -271,7 +271,7 @@ Often, funds will state “past performance is no guarantee of future results”
 
 
 
-![](/images/CEF-blog8.png "")
+![](/images/cef-blog8.png "")
 
 
 The funds are correct to state that past performance doesn’t result in future results. All categories but fixed income don’t show much of any correlation. For fixed income, 10-yr return shows a better correlation than 1-yr returns. Maybe there is persistent skill in managing fixed income funds?
@@ -286,7 +286,7 @@ The 200-day moving average (200dma) is a popular indicator as a smoothing functi
 
 
 
-![](/images/CEF-blog9.png "")
+![](/images/cef-blog9.png "")
 
 
 It looks like being below the 200dma is better for future returns, but not always. Again it would probably be better to drill down to individual funds and across different periods.
@@ -301,7 +301,7 @@ Net expense ratio is how much the funds charge to manage the assets. The data se
 
 
 
-![](/images/CEF-blog10.png "")
+![](/images/cef-blog10.png "")
 
 
 Nothing much there.
@@ -527,7 +527,7 @@ Graphically, here’s how some funds visually relates to a corresponding feature
 
 
 
-![](/images/CEF-blog11.png "")
+![](/images/cef-blog11.png "")
 
 
 
@@ -535,7 +535,7 @@ Graphically, here’s how some funds visually relates to a corresponding feature
 
 
 
-![](/images/CEF-blog12.png "")
+![](/images/cef-blog12.png "")
 
 
 
@@ -543,7 +543,7 @@ Graphically, here’s how some funds visually relates to a corresponding feature
 
 
 
-![](/images/CEF-blog13.png "")
+![](/images/cef-blog13.png "")
 
 
 I’m going to pick the Linear Regression, and Random Forest Regression model to see if any predictions are possible. Running all the funds through each model results in the following funds with the best R2 score on the out of sample test data.
@@ -689,7 +689,7 @@ Linear Regression for MFV and GCV:
 
 
 
-![](/images/CEF-blog14.png "")
+![](/images/cef-blog14.png "")
 
 
 
@@ -697,7 +697,7 @@ Linear Regression for MFV and GCV:
 
 
 
-![](/images/CEF-blog15.png "")
+![](/images/cef-blog15.png "")
 
 
 Random Forest Regression for EGF
@@ -707,7 +707,7 @@ Random Forest Regression for EGF
 
 
 
-![](/images/CEF-blog16.png "")
+![](/images/cef-blog16.png "")
 
 
 
@@ -715,7 +715,7 @@ Random Forest Regression for EGF
 
 
 
-![](/images/CEF-blog17.png "")
+![](/images/cef-blog17.png "")
 
 
 
