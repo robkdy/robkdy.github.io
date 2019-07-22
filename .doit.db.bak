@@ -94,7 +94,7 @@
 'copy_assets:output\\assets\\js\\moment-with-locales.min.js', (121856, 471)
 'render_sources:output\\pages\\about-nikola\\index.rst', (122368, 230)
 'render_taxonomies:output\\archive.html', (221696, 2331)
-'sitemap:output\\sitemap.xml', (330240, 6137)
+'sitemap:output\\sitemap.xml', (330240, 6138)
 'render_galleries:output\\galleries\\demo\\tesla2_lg.thumbnail.jpg', (130560, 282)
 'render_galleries:output\\galleries\\demo\\tesla_lightning1_lg.thumbnail.jpg', (131072, 303)
 'render_posts:timeline_changes', (131584, 109)
