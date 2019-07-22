@@ -17,7 +17,7 @@ import time
 
 # Data about this site
 BLOG_AUTHOR = "Robin Tran"  # (translatable)
-BLOG_TITLE = "ROBDKY.GITHUB.IO"  # (translatable)
+BLOG_TITLE = "Robin Tran"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
 SITE_URL = "https://robkdy.github.io/"
@@ -25,7 +25,7 @@ SITE_URL = "https://robkdy.github.io/"
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://robkdy.github.io/"
 BLOG_EMAIL = "rob2tran@gmail.com"
-BLOG_DESCRIPTION = "This is a demo site for Nikola."  # (translatable)
+BLOG_DESCRIPTION = "My Data Projects"  # (translatable)
 
 # Nikola is multilingual!
 #
@@ -139,8 +139,8 @@ TRANSLATIONS_PATTERN = '{path}.{lang}.{ext}'
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ("/archive.html", "Archive"),
-        ("/categories/", "Tags"),
-        ("/rss.xml", "RSS feed"),
+        ("/pages/projects/index.html", "Projects"),
+        ("/pages/contact/index.html", "Contact"),
     ),
 }
 
@@ -1114,7 +1114,7 @@ MARKDOWN_EXTENSIONS = ['markdown.extensions.fenced_code', 'markdown.extensions.c
 
 # By default, Nikola generates RSS files for the website and for tags, and
 # links to it.  Set this to False to disable everything RSS-related.
-# GENERATE_RSS = True
+GENERATE_RSS = False
 
 # By default, Nikola does not generates Atom files for indexes and links to
 # them. Generate Atom for tags by setting TAG_PAGES_ARE_INDEXES to True.
