@@ -9,17 +9,9 @@
 .. type: text
 -->
 
-## Predict Recessions with Machine Learning
-[**Slides**]()
+### Closed-End Funds: Factors and Machine Learning
+May 15, 2019
 
-[**Report**]()
-
-[**Code**]()
-
-[**Blog Post**]()
-
-
-## Closed-End Funds: Factors and Machine Learning
 [**Slides**]()
 
 [**Report**](https://docs.google.com/document/d/1bhJHXGxqkxz5WDHIEhrrVNPZWUbcnE7qRPl7mZmfkNk/edit?usp=sharing)
@@ -27,3 +19,14 @@
 [**Code**]()
 
 [**Blog Post**](https://robkdy.github.io/posts/closed-end-funds/)
+
+### Predict Recessions with Machine Learning
+August 1, 2019
+
+[**Slides**]()
+
+[**Report**]()
+
+[**Code**]()
+
+[**Blog Post**]()

@@ -10,17 +10,12 @@
 -->
 
 
-## **CLOSED-END FUNDS MARKET**
-
-
-### USING DISCOUNTS AND OTHER FACTORS TO  PREDICT FUTURE RETURNS
+## **USING DISCOUNTS AND OTHER FACTORS TO  PREDICT FUTURE RETURNS**
 
 
 ## Introduction
 
 Closed-End Funds (CEFs) are a particular type of investment vehicle with some interesting properties. They are like traditional open-ended mutual funds with unique properties like:
-
-
 
 *   shares are not created or redeemed when traded
 *   leverage is allowed
@@ -58,31 +53,11 @@ In this section, I will explore correlations of certain factors (independent var
 Unlike mutual funds, ETFs, and stocks, closed-end funds can trade at a considerable discount to their net asset value. We can explore this uniqueness by plotting regressions that show correlations between discounts and forward 1, 3, 5, and 10 year returns across all four categories. The plots are below.
 
 
-
-
-
 ![](/images/cef-blog0.png "")
-
-
-
-
-
-
 
 ![](/images/cef-blog1.png "")
 
-
-
-
-
-
 ![](/images/cef-blog2.png "")
-
-
-
-
-
-
 
 ![](/images/cef-blog3.png "")
 
@@ -223,12 +198,9 @@ The best correlation between Discount and 1 and 3-yr returns is in Municipal Bon
 
 There is another measure of discount that might correlate better with future returns, called the Z-score. Just like in statistics, the Z-score of closed-end funds is the difference of the discount to mean of the discount over a specified period, divided by the standard deviation of the discount over the same period.
 
+ ![](/images/cef-blog18.png "")
 
-
-
-   ![](/images/cef-blog18.png "")
-
-   ![](/images/cef-blog19.png "")
+ ![](/images/cef-blog19.png "")
 
 ![](/images/cef-blog20.png "")
 
@@ -384,7 +356,7 @@ Best discount to 1-yr forward return correlation:
    </td>
   </tr>
 </table>
-
+  
 
 Best below 200 day moving average to 1-yr forward return correlation:
 
@@ -451,7 +423,7 @@ Best below 200 day moving average to 1-yr forward return correlation:
    </td>
   </tr>
 </table>
-
+  
 
 Best past 10-yr return to 1-yr forward return correlation:
 
@@ -613,7 +585,7 @@ Linear Regression:
    </td>
   </tr>
 </table>
-
+  
 
 Random Forest Regression:
 
