@@ -204,7 +204,7 @@
 'render_sources:output\\pages\\projects\\index.md', (329728, 242)
 'render_sources:output\\pages\\contact\\index.md', (337408, 240)
 'render_pages:output\\pages\\contact\\index.html', (337920, 3098)
-'render_pages:output\\pages\\projects\\index.html', (341504, 3104)
+'render_pages:output\\pages\\projects\\index.html', (341504, 3103)
 'render_posts:cache\\pages\\contact.html', (345088, 351)
 'render_posts:cache\\pages\\projects.html', (345600, 354)
 'render_posts:cache\\posts\\predicting-recessions.html', (346112, 393)
