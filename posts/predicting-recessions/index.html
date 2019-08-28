@@ -107,7 +107,7 @@
 <p><img alt="alt_text" src="../../images/recession-blog3.png" title="image_tooltip"></p>
 <p><img alt="alt_text" src="../../images/recession-blog4.png" title="image_tooltip"></p>
 <p>Here’s how the models scored across various metrics. For log loss, lower is better, all other scores is higher is better. The probability of recession  represents data for the month of July 2019. My custom scoring metric penalizes a model that missed a recession completely, i.e. no recession classification in the 6-months before or 3-months after the start of a recession, or a false positive recession that was outside that range. If either of those conditions were true, the model scores a zero, else it scores as the balanced accuracy metric. All of the models except for the Neural Network were tuned using the custom scoring metric.</p>
-<table>
+<table border="1" cellspacing="3" cellpadding="3">
 <tr>
 <td>
    </td>
