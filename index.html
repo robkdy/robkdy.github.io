@@ -61,7 +61,7 @@
         <div>
 <h2>USING MACHINE LEARNING TO PREDICT THE START OF RECESSIONS</h2>
 <h3>Problem</h3>
-<p>What indicators should you use to predict recessions? How about all of them! Since humans typically don't get any better at predictions after 5-10 pieces of relevant information (only more confident), this problem seems well-suited for the machines. As in, AI, machine learning, neural networks, deep learning, type of machines. Consider the Federal Reserve Bank of St. Louis Economic Data (FRED) website has 570,000 data series (up from 560,000 a couple of months ago), what chance do humans really have in processing that data. 570,000! One website! Really? I guess someone could be using the "Number of Identified Exporters to Greenland from Kansas" data series in their mental model of the economy. It's a real series, look it up.</p>
+<p>What indicators should you use to predict recessions? How about all of them! Since humans typically don't get any better at predictions after 5-10 pieces of relevant information (only more confident), this problem seems well-suited for the machines. As in, AI, machine learning, neural networks, deep learning, type of machines. Consider the Federal Reserve Bank of St. Louis Economic Data (FRED) website has 570,000 data series (up from 560,000 a couple of months ago), what chance do humans really have in processing that data. 570,000! One website! Really? I guess someone could be using the "Number of Identified Exporters to Greenland from Kansas" data series in their understanding of the economy. It's a real series, look it up.</p>
 <h3>Data</h3>
 <p>Even 570,000 data series is a lot for machines (at least my machine). Ok, I didn’t really use ‘all of them’ data. I wanted to look at the last seven recessions, which means I needed data series that goes back to 1969. This, plus some series are discontinued, some series are only reported annually, and the FRED API only let me have about 100 series at a time, reduced the number of data series down to about 6000. Eliminating the data series that didn’t make sense to me, and adding three derivative series for each one resulted in a final of 1831 indicators to train the models. For each series from FRED, I created the following derivatives.</p>
 <ul>
@@ -98,11 +98,11 @@
 <p>The neural network was validated by splitting the training data into 70%/30% training/validation split. The scoring metric used was the log-loss scoring. The 30% validation data included the last of the six recessions in the entire training data. The number of layers, nodes per layer, and optimizer were manually manipulated to get a well performing model.</p>
 <h3>Results</h3>
 <p>Here are the graphical results for each model in predicting the last two recessions. Remember, the first four models were trained and fitted to the first six of seven recessions, and the Neural Network was trained on the first five of seven recessions.</p>
-<p><img alt="alt_text" src="images/recession-blog0.png" title="image_tooltip"></p>
-<p><img alt="alt_text" src="images/recession-blog1.png" title="image_tooltip"></p>
-<p><img alt="alt_text" src="images/recession-blog2.png" title="image_tooltip"></p>
-<p><img alt="alt_text" src="images/recession-blog3.png" title="image_tooltip"></p>
-<p><img alt="alt_text" src="images/recession-blog4.png" title="image_tooltip"></p>
+<p><img alt="alt_text" src="images/recession-blog0.png" title=""></p>
+<p><img alt="alt_text" src="images/recession-blog1.png" title=""></p>
+<p><img alt="alt_text" src="images/recession-blog2.png" title=""></p>
+<p><img alt="alt_text" src="images/recession-blog3.png" title=""></p>
+<p><img alt="alt_text" src="images/recession-blog4.png" title=""></p>
 <p>Here’s how the models scored across various metrics. For log loss, lower is better, all other scores is higher is better. The probability of recession  represents data for the month of July 2019. My custom scoring metric penalizes a model that missed a recession completely, i.e. no recession classification in the 6-months before or 3-months after the start of a recession, or a false positive recession that was outside that range. If either of those conditions were true, the model scores a zero, else it scores as the balanced accuracy metric. All of the models except for the Neural Network were tuned using the custom scoring metric.</p>
 <table border="1" cellspacing="3" cellpadding="3">
 <tr>
