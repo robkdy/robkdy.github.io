@@ -1,6 +1,6 @@
 <!--
-.. title: Contacts
-.. slug: contacts
+.. title: Contact
+.. slug: contact
 .. date: 2019-08-27 20:17:40 UTC-05:00
 .. tags: 
 .. category: 
