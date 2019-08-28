@@ -18,7 +18,7 @@
 
 ## Problem
 
-What indicators should you use to predict recessions? How about all of them! Since humans typically don't get any better at predictions after 5-10 pieces of relevant information (only more confident), this problem seems well-suited for the machines. As in, AI, machine learning, neural networks, deep learning, type of machines. Consider the Federal Reserve Bank of St. Louis Economic Data (FRED) website has 570,000 data series (up from 560,000 a couple of months ago), what chance do humans really have in processing that data. 570,000! One website! Really? I guess someone could be using the "Number of Identified Exporters to Greenland from Kansas" data series in their mental model of the economy. It's a real series, look it up.
+What indicators should you use to predict recessions? How about all of them! Since humans typically don't get any better at predictions after 5-10 pieces of relevant information (only more confident), this problem seems well-suited for the machines. As in, AI, machine learning, neural networks, deep learning, type of machines. Consider the Federal Reserve Bank of St. Louis Economic Data (FRED) website has 570,000 data series (up from 560,000 a couple of months ago), what chance do humans really have in processing that data. 570,000! One website! Really? I guess someone could be using the "Number of Identified Exporters to Greenland from Kansas" data series in their understanding of the economy. It's a real series, look it up.
 
 
 ## Data
@@ -85,21 +85,21 @@ Here are the graphical results for each model in predicting the last two recessi
 
 
 
-![alt_text](/images/recession-blog0.png "image_tooltip")
+![alt_text](/images/recession-blog0.png "")
 
 
 
 
 
 
-![alt_text](/images/recession-blog1.png "image_tooltip")
+![alt_text](/images/recession-blog1.png "")
 
 
 
 
 
 
-![alt_text](/images/recession-blog2.png "image_tooltip")
+![alt_text](/images/recession-blog2.png "")
 
 
 
@@ -107,13 +107,13 @@ Here are the graphical results for each model in predicting the last two recessi
 
 
 
-![alt_text](/images/recession-blog3.png "image_tooltip")
+![alt_text](/images/recession-blog3.png "")
 
 
 
 
 
-![alt_text](/images/recession-blog4.png "image_tooltip")
+![alt_text](/images/recession-blog4.png "")
 
 
 Here’s how the models scored across various metrics. For log loss, lower is better, all other scores is higher is better. The probability of recession  represents data for the month of July 2019. My custom scoring metric penalizes a model that missed a recession completely, i.e. no recession classification in the 6-months before or 3-months after the start of a recession, or a false positive recession that was outside that range. If either of those conditions were true, the model scores a zero, else it scores as the balanced accuracy metric. All of the models except for the Neural Network were tuned using the custom scoring metric.
