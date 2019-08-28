@@ -16,8 +16,8 @@ import time
 
 
 # Data about this site
-BLOG_AUTHOR = "More Data"  # (translatable)
-BLOG_TITLE = "More DaTa"  # (translatable)
+BLOG_AUTHOR = "Rob T."  # (translatable)
+BLOG_TITLE = "MoreData"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
 SITE_URL = "https://robkdy.github.io/"
