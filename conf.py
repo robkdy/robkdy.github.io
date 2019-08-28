@@ -152,7 +152,7 @@ NAVIGATION_ALT_LINKS = {
 }
 
 # Name of the theme to use.
-THEME = "foundation6"
+THEME = "libretto"
 
 # Primary color of your theme. This will be used to customize your theme.
 # Must be a HEX value.
