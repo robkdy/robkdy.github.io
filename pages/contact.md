@@ -15,6 +15,6 @@
 
 [Github](https://github.com/robkdy/)
 
-[Twitter]()
+[Twitter](https://twitter.com/robkdy)
 
 [Strava]()
