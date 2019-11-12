@@ -14,7 +14,7 @@
 
 
 # USING MACHINE LEARNING TO PREDICT THE START OF RECESSIONS
-
+*Update: As of 11-11-2019, the models predicts the probability of a recession in the next 3 months at 7.2%. The models used ranged from 1.0% to 16.8%.*
 
 ## Problem
 
