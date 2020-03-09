@@ -4,7 +4,7 @@
 'render_posts', (1536, 56)
 'copy_assets:output\\assets\\css\\bootstrap.min.css', (216064, 637)
 'sitemap', (2560, 56)
-'sitemap:output\\sitemap.xml', (109568, 1558)
+'sitemap:output\\sitemap.xml', (109568, 1557)
 'copy_assets:output\\assets\\js\\gallery.js', (4096, 437)
 'render_taxonomies:output\\categories\\index.html', (147456, 2536)
 'copy_assets:output\\assets\\js\\html5shiv-printshiv.min.js', (6144, 469)

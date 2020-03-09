@@ -14,6 +14,7 @@
 
 
 # USING MACHINE LEARNING TO PREDICT THE START OF RECESSIONS
+*Update: As of 03-08-2020 (representing data through 01-31-20), the models predicts the probability of a recession in the next 3 months at 1.9%. The models used ranged from 0.1% to 4.9%.*
 *Update: As of 02-11-2020, the models predicts the probability of a recession in the next 3 months at 2.8%. The models used ranged from 0.9% to 5.7%.*
 *Update: As of 01-07-2020, the models predicts the probability of a recession in the next 3 months at 4.9%. The models used ranged from 2.9% to 7.7%.*
 *Update: As of 11-11-2019, the models predicts the probability of a recession in the next 3 months at 7.2%. The models used ranged from 1.0% to 16.8%.*
